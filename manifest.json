@@ -1,0 +1,6 @@
+{
+   "id": "initdata-test",
+   "title": "Initdata test",
+   "subtitle": "Test the results of calling getInitData on the events service",
+   "author": "Jim Nicholls"
+}
