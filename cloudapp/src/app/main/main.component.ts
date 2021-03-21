@@ -26,6 +26,7 @@ export class MainComponent implements OnInit, OnDestroy {
   ) { }
 
   ngOnInit() {
+    this.eventsService.getInitData().subscribe(data => console.log(data))
   }
 
   ngOnDestroy(): void {
